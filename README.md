@@ -30,10 +30,10 @@ mkdir logs
 tensorboard --logdir ./logs --port 1234 --debug
 ```
 
-My python environment: 
+My python environment 当前的 Pyhon 环境: 
 Python version == 2.7
 ```
-BeautifulSoup==3.2.1
+BeautifulSoup==3.2.1 是一个可以从HTML或XML文件中提取数据的Python库
 numpy==1.13.1 支持大量的维度数组与矩阵运算，此外也针对数组运算提供大量的数学函数库。
 pandas==0.16.2 pandas 是基于NumPy 的一种工具，该工具是为了解决数据分析任务而创建的。Pandas 纳入了大量库和一些标准的数据模型，提供了高效地操作大型数据集所需的工具。pandas提供了大量能使我们快速便捷地处理数据的函数和方法。
 scikit-learn==0.16.1 通用机器学习库,sklearn更倾向于使用者可以自行对数据进行处理，比如选择特征、压缩维度、转换格式，是传统机器学习库。
